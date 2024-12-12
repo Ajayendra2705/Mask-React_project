@@ -1,0 +1,61 @@
+.hero-section {
+    background-image: url(/src/assets/Mask_group.png);  /* Adding background image */
+    background-size: cover;  /* Ensure the image covers the entire section */
+    background-position: center center;  /* Center the image */
+    color: white;
+    position: relative;
+    width: 100%;  /* Ensure full width */
+    padding-top: 70px;  /* Adjusted to match navbar height */
+    height: 0;  /* Set height to 0 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56.25vw;  /* Maintain a 16:9 aspect ratio (width 16, height 9) */
+  }
+  
+  .hero-overlay {
+    width: 90%;  
+    height: 60%;
+  }
+  
+  .Left_box {
+    margin-top: 0px;
+    height: 100%;
+    width: 50%;
+    font-size: 5px;
+  }
+  
+  .upper_text_box{
+    font-size: 50px;
+    height: 60%;
+    width: 100%;
+    background-color: green;
+  }
+  
+  .upper_text_box h1{
+    font-size: 50px;
+  }
+  
+  .welcome_box {
+    height: 45%;
+    width: 100%;
+    background-color: red;
+  }
+  
+  .text_box {
+    height: 55%;
+    width: 100%;
+    background-color: green;
+  }
+  
+  .box1 {
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+  }
+  
+  .box2 , .box3 {
+    height: 40%;
+    width: 100%;
+    background-color: pink;
+  }
