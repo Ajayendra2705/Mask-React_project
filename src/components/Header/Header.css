@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 92px;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 50PX;
+    width: 50PX;
+    background-color: RED;
+    margin-left: 8vw;
+  }
+  
+  .nav {
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+    margin-left: 3.5vw;
+  }
+  
+  .nav a:hover {
+    color: #e63946;
+  }
+  
+  /* Toggle Menu Styling */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem; /* Larger font size */
+    cursor: pointer;
+    z-index: 1100; /* Ensure it's above other elements */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Light transparent white */
+    border-radius: 5px;
+    margin-left: 70%;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px; /* Add right margin to the nav bar */
+      background: black;
+      padding: 20px;
+      border-radius: 5px;
+      margin-right: 20px; /* Right margin for the nav bar */
+    }
+  
+    .nav.open {
+      display: flex;
+      margin-right: 6.5vw;
+      width: 300px;
+      background-color: rgb(122, 122, 122);
+    }
+  
+    .menu-toggle {
+      display: block; /* Show the toggle button on small screens */
+    }
+  }
