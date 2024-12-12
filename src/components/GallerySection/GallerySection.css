@@ -1,0 +1,52 @@
+.gallery-section {
+    display: flex;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: blue;
+    margin-top: -8vh;
+    z-index: 12000;
+    height: 35vw;
+  }
+
+.gal_box {
+  height: 80%;
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gal_box h1 {
+  font-size: 4vw;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: left;
+
+}
+
+.gal_box p{
+  font-size: 1vw;
+  text-align: left;
+  color: white;
+}
+
+.button_box {
+  background-color: pink;
+  height: 4vw;
+  width: 50%;
+  border-radius: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.button_box h1 {
+  font-size: 2vw;
+}
+
+#left_side {
+  background-color: red;
+}
