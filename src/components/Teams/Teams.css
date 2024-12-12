@@ -1,0 +1,74 @@
+.teams {
+    height: 40vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer_box {
+    height: 80%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.left_side {
+    height: 100%;
+    width: 40%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_side {
+    height: 100%;
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.box_side_2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box_side_3 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: pink; */
+}
+
+.team_box_1 {
+    height: 10vw;
+    width: 10vw;
+    background-color: red;
+    margin: 5px;
+    margin-left: 10vw;
+}
+
+.team_box_2 {
+    height: 10vw;
+    width: 10vw;
+    background-color: red;
+    margin-right: 10vw;
+    margin-top: 10px;
+    
+}
+
+.team_text_box {
+    height: 80%;
+    width: 80%;
+    background-color: yellow;
+}
