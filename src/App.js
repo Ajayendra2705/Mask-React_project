@@ -6,6 +6,7 @@ import GallerySection from "./components/GallerySection/GallerySection";
 import Carousel from "./components/Carousel/Carousel";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Footer from "./components/Footer/Footer";
+import Teams from "./components/Teams/Teams";
 import "./App.css";
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <EventsSection />
       <GallerySection />
       <Carousel />
-      <AboutUs />
+      <Teams />
+      {/* <AboutUs /> */}
       <Footer />
     </div>
   );
