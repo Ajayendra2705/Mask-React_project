@@ -1,0 +1,16 @@
+#button_text h1{
+    color: black;
+  }
+  
+  #fan_text {
+    font-size: 3vw;
+  }
+  
+  #button_text{
+    height: 4vw;
+    width: 20vw;
+  }
+  
+  #right_box {
+    background-color: red;
+  }
